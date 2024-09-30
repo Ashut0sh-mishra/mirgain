@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #555;
+}
+
+header h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #888;
+}
+
+.symptoms, .medication, .notes {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
