@@ -3,45 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Migraine Report - Ashutosh Mishra</title>
+    <title>Medical Report</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="report-container">
         <header>
-            <h1>Migraine Report</h1>
-            <h2>Ashutosh Mishra</h2>
-            <p>Date: <span id="date"></span></p>
+            <h1>CECT NECK</h1>
+            <div class="patient-info">
+                <p>Patient Name: Md. Nizam</p>
+                <p>Age/Sex: 50 Yrs/M</p>
+                <p>Patient ID: 8480</p>
+                <p>Location Type: --</p>
+                <p>Ref. By: Prof. S. K. Agrawal</p>
+                <p>Examination No: 0299532</p>
+                <p>Executed on: 02/08/2024</p>
+            </div>
         </header>
-
-        <section class="symptoms">
-            <h3>Symptoms Overview</h3>
-            <p>Migraine intensity: <strong>Severe</strong></p>
-            <p>Duration of migraine: <strong>4 hours</strong></p>
-            <p>Triggers: <strong>Bright lights, Stress</strong></p>
-        </section>
-
-        <section class="medication">
-            <h3>Medication Taken</h3>
+        
+        <section class="observations">
+            <h2>Observations</h2>
+            <p>
+                A large well defined heterogeneously enhancing mass lesion measuring ~4.0 x 4.4 x 6.2cm (anteroposteriorly x transverse x craniocaudally) is seen at the right lobe of the thyroid gland expanding it. No obvious surrounding infiltration or area of capsular breach is seen. There are small patchy areas of peripheral calcifications seen. Mass effect is causing kinking of trachea and its left lateral deviation. Rest of the thyroid gland shows normal configuration and densities.
+            </p>
             <ul>
-                <li>Ibuprofen (400mg)</li>
-                <li>Sumatriptan (50mg)</li>
+                <li>Nasopharynx and base of the skull are visualized normally.</li>
+                <li>Oropharynx, base of tongue, soft palate, uvula, bilateral tonsillar arches appear normal.</li>
+                <li>Bilateral parapharyngeal spaces show normal fat content.</li>
+                <li>Laryngopharynx shows normal anatomy of epiglottis, aryepiglottic folds and valleculae.</li>
+                <li>False vocal cords and ventricle are normal.</li>
+                <li>True vocal cords, glottis rim, and paraglottic space are normal in morphology.</li>
+                <li>Bilateral pyriform fossae and post cricoid region are normal.</li>
+                <li>Laryngeal cartilages and hyoid bone appear normal.</li>
+                <li>Pharyngeal and laryngeal airways are normal.</li>
+                <li>Trachea and esophagus show normal anatomy.</li>
+                <li>Visualized orbits, eye balls, and paranasal sinuses are normal bilaterally.</li>
+                <li>Cervical spine appears normal.</li>
+                <li>No significant lymphadenopathy.</li>
             </ul>
         </section>
-
-        <section class="notes">
-            <h3>Additional Notes</h3>
-            <p>Rested in a dark room for 2 hours. Hydration improved after taking medication.</p>
-        </section>
         
+        <section class="impression">
+            <h2>Impression</h2>
+            <p>
+                A well defined large enhancing mass lesion at the right lobe of thyroid gland - ? Neoplastic. Suggest histopathological correlation.
+            </p>
+        </section>
+
         <footer>
-            <p>This report is generated to track migraine incidents and the steps taken to relieve the symptoms.</p>
+            <p>Reported by:</p>
+            <p><strong>Dr. Manoj Ranjan</strong></p>
+            <p>C1/MV/DMR/F73/15</p>
         </footer>
     </div>
-
-    <script>
-        document.getElementById("date").innerText = new Date().toLocaleDateString();
-    </script>
 </body>
 </html>
