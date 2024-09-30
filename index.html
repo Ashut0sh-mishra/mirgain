@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Migraine Report - Ashutosh Mishra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Migraine Report</h1>
+            <h2>Ashutosh Mishra</h2>
+            <p>Date: <span id="date"></span></p>
+        </header>
+
+        <section class="symptoms">
+            <h3>Symptoms Overview</h3>
+            <p>Migraine intensity: <strong>Severe</strong></p>
+            <p>Duration of migraine: <strong>4 hours</strong></p>
+            <p>Triggers: <strong>Bright lights, Stress</strong></p>
+        </section>
+
+        <section class="medication">
+            <h3>Medication Taken</h3>
+            <ul>
+                <li>Ibuprofen (400mg)</li>
+                <li>Sumatriptan (50mg)</li>
+            </ul>
+        </section>
+
+        <section class="notes">
+            <h3>Additional Notes</h3>
+            <p>Rested in a dark room for 2 hours. Hydration improved after taking medication.</p>
+        </section>
+        
+        <footer>
+            <p>This report is generated to track migraine incidents and the steps taken to relieve the symptoms.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("date").innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
