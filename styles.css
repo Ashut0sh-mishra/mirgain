@@ -1,64 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    margin: 0;
     padding: 20px;
+    background-color: #f8f8f8;
 }
 
-.container {
+.report-container {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background: #fff;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 header h1 {
-    font-size: 36px;
-    color: #555;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
-header h2 {
-    font-size: 24px;
-    margin-top: 10px;
-    color: #888;
+.patient-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.symptoms, .medication, .notes {
-    margin-top: 20px;
+.patient-info p {
+    margin: 5px 0;
+    font-size: 14px;
 }
 
-h3 {
-    color: #444;
+.observations, .impression {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-p, li {
-    font-size: 18px;
-    line-height: 1.6;
+.observations p, .impression p {
+    font-size: 16px;
 }
 
 ul {
-    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 16px;
 }
 
 footer {
-    margin-top: 20px;
     text-align: center;
-    font-size: 14px;
-    color: #666;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    font-size: 16px;
 }
